@@ -14,5 +14,5 @@ gets implemented and what the methods will be
 #     url('move', api.move),
 #     url('say', api.say),
 
-#     url('fetch_rooms', api.fetchRoom),
+#     url('get_rooms', api.getRoom),
 # ]
