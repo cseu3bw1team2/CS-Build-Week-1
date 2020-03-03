@@ -12,7 +12,10 @@ django-rest-auth = "*"
 django-allauth = "*"
 django-rest-api = "*"
 psycopg2 = "*"
-psycopg2-binary = "*"
+gunicorn = "*"
+dj-database-url = "*"
+whitenoise = "*"
+django-heroku = "*"
 
 [requires]
 python_version = "3.8"
