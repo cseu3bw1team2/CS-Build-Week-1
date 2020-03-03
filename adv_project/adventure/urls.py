@@ -1,4 +1,5 @@
 from django.conf.urls import url
+from . import api
 
 
 """
@@ -7,12 +8,12 @@ gets implemented and what the methods will be
 
 """
 
-# from . import api
+from . import api
 
-# urlpatterns = [
-#     url('init', api.initialize),
-#     url('move', api.move),
-#     url('say', api.say),
+urlpatterns = [
+    url('init', api.initialize),
+    url('move', api.move),
+    url('say', api.say),
 
-#     url('get_rooms', api.getRoom),
-# ]
+    url('get_rooms', api.getRoom),
+]
