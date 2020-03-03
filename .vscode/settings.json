@@ -1,6 +1,3 @@
 {
-    "deepscan.enable": true,
-    "cSpell.ignoreWords": [
-        "corsheaders"
-    ]
+    "deepscan.enable": true
 }
