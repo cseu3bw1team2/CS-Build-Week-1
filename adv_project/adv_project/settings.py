@@ -28,7 +28,7 @@ SECRET_KEY = '&bo2q*of0wig1+cszb5f_=*gz24oe%)if!1*17r008g^dt++#k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://muddy100.herokuapp.com/']
 
 
 # Application definition
