@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 
 import os
 import django_heroku
-
+from decouple import config
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -28,7 +28,7 @@ SECRET_KEY = '&bo2q*of0wig1+cszb5f_=*gz24oe%)if!1*17r008g^dt++#k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://muddy100.herokuapp.com/']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -103,13 +103,15 @@ DATABASES = {
     # }
         'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'adv',
-        'USER': 'postgres',
-        'PASSWORD': 'kudrinica18',
-        'HOST': 'localhost'
+        'NAME': config('NAME'),
+        'USER': config('USER'),
+        'PASSWORD': config('PASSWORD'),
+        'HOST': config('HOST')
     }
 
+
 }
+
 
 
 
