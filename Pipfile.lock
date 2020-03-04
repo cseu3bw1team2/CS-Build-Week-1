@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "619551150411413bfeeed1eb505ec3a3001a22ab986064b539d4511621849598"
+            "sha256": "a409cdf15f5224ebd3ea1f6d5b2db44a9f7ec3abf0df08475416e215d3960c24"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -211,7 +211,6 @@
                 "sha256:ef6df7e14698e79c59c7ee7cf94cd62e5b869db369ed4b1b8f7b729ea825712a",
                 "sha256:f898e5cc0a662a9e12bde6f931263a1bbd350cfb18e1d5336a12927851825bb6"
             ],
-            "index": "pypi",
             "version": "==2.8.4"
         },
         "pusher": {
@@ -231,9 +230,10 @@
         },
         "pycparser": {
             "hashes": [
-                "sha256:a988718abfad80b6b157acce7bf130a30876d27603738ac39f140993246b25b3"
+                "sha256:2d475327684562c3a96cc71adf7dc8c4f0565175cf86b6d7a404ff4c771f15f0",
+                "sha256:7582ad22678f0fcd81102833f60ef8d0e57288b6b5fb00323d101be910e35705"
             ],
-            "version": "==2.19"
+            "version": "==2.20"
         },
         "pynacl": {
             "hashes": [
